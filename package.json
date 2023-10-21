@@ -1,7 +1,6 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
@@ -9,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hilddd/nodejs_blog.git"
+    "url": "git+https://github.com/hildhild/nodejs_blog.git"
   },
   "keywords": [
     "blog",
@@ -24,9 +23,12 @@
   },
   "homepage": "https://github.com/hilddd/nodejs_blog#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
-  }
+  },
+  "description": ""
 }
